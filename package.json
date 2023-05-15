@@ -1,5 +1,5 @@
 {
-  "name": "car-doctor",
+  "name": "y",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -30,5 +30,17 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
-  }
+  },
+  "description": "car doctor website",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fayshal007/car-doctor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fayshal007/car-doctor/issues"
+  },
+  "homepage": "https://github.com/Fayshal007/car-doctor#readme"
 }
