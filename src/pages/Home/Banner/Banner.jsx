@@ -11,34 +11,62 @@ const Banner = () => {
         <div className="carousel w-full h-[600px]">
             <div id="slide1" className="carousel-item relative w-full">
                 <img src={img1} className="w-full" />
+                <div className="absolute pl-10 pt-44 h-full w-[522px] bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <h1 className='text-7xl text-white font-semibold'>Affordable Price For Car Servicing</h1>
+                    <p className='text-white mt-5'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn mr-5 my-5 bg-[#FF3811] border-[#FF3811] hover:bg-[#cf2f0f] hover:border-[#FF3811]">Discover More</button>
+                    <button className="btn btn-outline text-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">Latest Projects</button>
+                    </div>
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-14 bottom-14">
-                    <a href="#slide4" className="btn btn-circle
-                    mr-5">❮</a>
-                    <a href="#slide2" className="btn btn-circle">❯</a>
+                    <a href="#slide4" className="btn btn-circle mr-5">❮</a>
+                    <a href="#slide2" className="btn btn-circle bg-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">❯</a>
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
                 <img src={img2} className="w-full" />
+                <div className="absolute pl-10 pt-44 h-full w-[522px] bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <h1 className='text-7xl text-white font-semibold'>Affordable Price For Car Servicing</h1>
+                    <p className='text-white mt-5'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn mr-5 my-5 bg-[#FF3811] border-[#FF3811] hover:bg-[#cf2f0f] hover:border-[#FF3811]">Discover More</button>
+                    <button className="btn btn-outline text-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">Latest Projects</button>
+                    </div>
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-14 bottom-14">
-                    <a href="#slide1" className="btn btn-circle
-                    mr-5">❮</a>
-                    <a href="#slide3" className="btn btn-circle">❯</a>
+                    <a href="#slide1" className="btn btn-circle mr-5">❮</a>
+                    <a href="#slide3" className="btn btn-circle bg-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">❯</a>
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
                 <img src={img3} className="w-full" />
+                <div className="absolute pl-10 pt-44 h-full w-[522px] bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <h1 className='text-7xl text-white font-semibold'>Affordable Price For Car Servicing</h1>
+                    <p className='text-white mt-5'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn mr-5 my-5 bg-[#FF3811] border-[#FF3811] hover:bg-[#cf2f0f] hover:border-[#FF3811]">Discover More</button>
+                    <button className="btn btn-outline text-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">Latest Projects</button>
+                    </div>
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-14 bottom-14">
-                    <a href="#slide2" className="btn btn-circle
-                    mr-5">❮</a>
-                    <a href="#slide4" className="btn btn-circle">❯</a>
+                    <a href="#slide2" className="btn btn-circle mr-5">❮</a>
+                    <a href="#slide4" className="btn btn-circle bg-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">❯</a>
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
                 <img src={img4} className="w-full" />
+                <div className="absolute pl-10 pt-44 h-full w-[522px] bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <h1 className='text-7xl text-white font-semibold'>Affordable Price For Car Servicing</h1>
+                    <p className='text-white mt-5'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn mr-5 my-5 bg-[#FF3811] border-[#FF3811] hover:bg-[#cf2f0f] hover:border-[#FF3811]">Discover More</button>
+                    <button className="btn btn-outline text-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">Latest Projects</button>
+                    </div>
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-14 bottom-14">
-                    <a href="#slide3" className="btn btn-circle
-                    mr-5">❮</a>
-                    <a href="#slide1" className="btn btn-circle">❯</a>
+                    <a href="#slide3" className="btn btn-circle mr-5">❮</a>
+                    <a href="#slide1" className="btn btn-circle bg-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">❯</a>
                 </div>
             </div>
         </div>
